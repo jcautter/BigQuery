@@ -2,7 +2,7 @@ import pyodbc
 import numpy as np
 import pandas as pd
 
-class SQLServer:
+class BigQuery:
     
     string_connection_parts = {
         'driver': "DRIVER={Simba ODBC Driver for Google BigQuery}"
